@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- author -->
+  <meta name="author" content="Satyajit Nayak">
+  <!-- description -->
+  <meta name="description" content="Javascript Photo Booth App">
+  <!-- keywords -->
+  <meta name="keywords" content="Photo Booth">
+  <!-- icon -->
+  <link rel='icon' href='libs/img/Satyajit_profile_photo.jpg' type='image/x-icon'>
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap" rel="stylesheet">
+  <!-- css link -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Ink Heart</title>
+</head>
+<body>
+
+  <div class='containerOne'>
+    <div class='containerTwo'>
+    <!-- header -->
+    <div class='header'>
+      
+      <h5 class="rainbow-text">
+        <span>I</span>
+        <span>N</span>
+        <span>K</span>
+        <span>S</span>
+        <span>H</span>
+        <span>O</span>
+        <span>T</span>
+        <span>S</span>
+        
+      </h5>
+    </div>
+
+    <div class="navOptions">
+      <div class='navs'>
+        <button type="button" class="btn normal">Normal</button>
+        <button type="button" class="btn sephia">Sephia</button>
+      </div>
+      <div class='navs'>
+        <button type="button" class="btn negative">Negative</button>
+        <button type="button" class="btn blackNwhite">Black and White</button>
+      </div>
+      <div class='navs navInput'>
+        <div style="color: white;">Custom</div>
+        <div class='inputRange'>
+          <label for="rmin" style="color: red;">R </label>
+            <input type="range" min=0 max=255 class='input red'>
+        </div>
+        <div class="inputRange">
+          <label for="rmin" style="color: green;">G</label>
+            <input type="range" min=0 max=255 class='input green'>
+        </div>
+        <div class="inputRange">
+          <label for="rmin" style="color: blue;">B</label>
+            <input type="range" min=0 max=255 class='input blue'>
+        </div>
+      </div>
+    </div>
+
+
+    <div class=''>
+      <video class="video" id='gum' controls></video>
+      <canvas class='canvas' id="output" width="640" height="480"></canvas>
+      <video id='recorded' controls style="display: none;"></video>
+    </div>
+
+    <div class='shots'>
+      <div> 
+      <button type="button" id="start" class="start"style="display: inline-block; width: 100px;">Start camera</button>
+      <button type="button" class="takePhoto" style="display: inline-block; width: 100px;">Take Photo</button>   
+      <button type="button" class= "start" id="record" style="display: inline-block; width: 150px;">Start Recording</button>
+      <button type="button" class= "start" id="play" style="display: inline-block; width: 100px;">Play</button>
+      <button type="button" class= "start" id="close" style="display: inline-block; width: 100px;">Close</button>
+      <button type="button" class= "start" id="download" style="display: inline-block; width: 100px;">Download</button>
+      <p>Echo cancellation: <input type="checkbox" id="echoCancellation"></p>
+    </div>
+     
+      <div class="shotsTaken">
+        <div class='image'><h1>1</h1></div>
+        <div class='image'><h1>2</h1></div>
+        <div class='image'><h1>3</h1></div>
+        <div class='image'><h1>4</h1></div>
+        <div class='image'><h1>5</h1></div>
+        <div class='image'><h1>6</h1></div>
+        <div class='image'><h1>7</h1></div>
+      </div>
+    </div>
+
+    </div>
+  </div>
+  </div> 
+
+  <audio class='snap' src='libs/audio/snap.mp3' hidden></audio>
+ 
+<!--  -->
+<i class="circular heart icon link" data-content="Hello. This is a wide pop-up which allows for lots of content with additional space. You can fit a lot of words here and the paragraphs will be pretty wide." data-variation="wide"></i>
+<i class="circular heart icon link" data-content="Hello. This is a very wide pop-up which allows for lots of content with additional space. You can fit a lot of words here and the paragraphs will be pretty wide." data-variation="very wide"></i>
+<!--  -->
+
+<script src='js/image.js'></script>
+<script src='js/video.js' async></script>
+<!-- include adapter for srcObject shim -->
+<script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+
+</body>
+</html>
+
