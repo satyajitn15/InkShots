@@ -10,7 +10,7 @@ you can also capture video + audio using camera also play and if wish can downlo
 <br><hr>
 <img src="libs/img/Capture.PNG">
 <br><hr>
-<img src="libs/img/Capture1.PNG">
+<img src="libs/img/Capture2.PNG">
 <br><hr>
 <h3 style="color:blue">screenshoot of InkShot app captured image</h3>
 <br><hr>
