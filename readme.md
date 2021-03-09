@@ -5,11 +5,17 @@ you can also use different fileter to beautify the image and save t your local m
 
 you can also capture video + audio using camera also play and if wish can download it to your local machine.
 
+<br><hr>
 <h3 style="color:blue">screenshoot of InkShot app</h3>
-<img src="libs/img/Screenshot 2021-02-17 003809.jpg">
-<img src="libs/img/screenshot2.jpg">
-
+<br><hr>
+<img src="libs/img/Capture.PNG">
+<br><hr>
+<img src="libs/img/Capture1.PNG">
+<br><hr>
 <h3 style="color:blue">screenshoot of InkShot app captured image</h3>
+<br><hr>
+<img src="libs/img/Capture3.PNG">
+<br><hr>
+<img src="libs/img/Capture4.PNG">
+<br><hr>
 <img src="libs/img/download.jpg">
-
-<h3 style="color:blue">video link :<a href="https://drive.google.com/file/d/1I7_KQT-2QqFUdP_VgLbrecwdUuiRNQXx/view?usp=sharing"> How to use the app</a></h3>
