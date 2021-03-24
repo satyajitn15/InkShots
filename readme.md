@@ -1,4 +1,4 @@
-This is a webApp similar to photo booth app in masos.
+This is a webApp similar to photo booth app in mac os.
 
 you can capture image using camera.
 you can also use different fileter to beautify the image and save t your local machine.
